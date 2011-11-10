@@ -1,0 +1,19 @@
+ 
+
+CodeCaveFinder is a small commandline Tool for Windows,
+ written in C++.
+ It searchs for Code Caves inside a running Process using the WinApi.
+ It lists you Caves of NOPs ( 0x90 ) and INT 3 ( 0xCC ).
+ Code Caves can used for direct code injection.
+
+ - Usage: CodeCaveFinder.exe ProcessName 
+
+ - Example: CodeCaveFinder.exe steam.exe 
+
+ If you don`t refer a process name you get a process list.
+
+ Tested on Windows XP SP3
+
+ Should work on Windows 2000
+                Windows XP SP1, SP2 and SP3
+                Windows Vista
